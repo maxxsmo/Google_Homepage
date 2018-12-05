@@ -1,6 +1,12 @@
+* {
+    padding-left: 0;
+    margin-left: 0;
+}
+
 body {
     margin: 0px;
-    width: 100%; height: 100%;
+    width: 100%; height: 110%;
+    font-size: 15px;
 }
 
 ul li {
@@ -18,11 +24,9 @@ ul {
 
 }
 
-.menu_icon:hover {
-    
-    color:black;
-
-}
+/* .connexion_button:hover {
+    text-shadow: 5px 5px 2px rgb(206, 203, 203);
+} */
 
 
 
@@ -32,13 +36,14 @@ ul {
 }
 
 .connexion_button {
-    background-color: #2196F3;
+    background-color: #448AFF;
     color: #fff;
-    border: solid .1px #2196F3;
-    border-radius: 4px;
+    border: solid .1px #448AFF;
+    border-radius: 2px;
     font-weight: bold;
+    font-size: 15px;
 
-    padding: 10px;
+    padding: 10px 15px;
     margin-right: 20px;
     
     
@@ -60,7 +65,7 @@ input[type=text] {
     width: 584px; height: 44px;
     border: 1px solid #E0E0E0;
     border-radius: 100px;
-
+    outline: none;
     position: absolute;
     top: 305px; left: 0px; right: 0px; 
     margin: auto;
@@ -72,23 +77,27 @@ input[type=text] {
 }
 
 .button_1 {
-    border: solid 1px #E0E0E0;
-    background-color: #E0E0E0;
-    color: rgb(68, 67, 67);
-    border-radius: 4px;
-    font-weight: bold;
-    padding: 10px;
-    top: 390px; left: 500px;
+    top: 390px; left: 480px;
 }
 
 .button_2 {
-    border: solid 1px #E0E0E0;
-    background-color: #E0E0E0;
-    border-radius: 4px;
+    top: 390px; right: 480px; 
+}
+
+.button_1, .button_2 {
+    border: solid 1px #F5F5F5;
+    background-color: #F5F5F5;
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+    border-radius: 2px;
     font-weight: bold;
-    color: rgb(68, 67, 67);
-    padding: 10px;
-    top: 390px; right: 500px; 
+    outline: none;
+    padding: 10px 15px;
+}
+
+.button_1:hover, .button_2:hover {
+    border: 1px solid rgb(189, 188, 188);
+    color: black;
 }
 
 .text {
@@ -104,4 +113,41 @@ input[type=text] {
 .text p a:hover {
     text-decoration: underline;
 }
+
+.footer_wrapper {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 50px;
+    border: solid .1px  rgb(224, 224, 224);
+
+    position: absolute; bottom: 0;
+}
+
+.footer_2 .l_d li {
+    display: inline-block;
+    padding-right : 10px;
+    color: rgb(82, 82, 82);
+}
+
+.footer_1 .l_g li {
+    color: rgb(82, 82, 82);
+}
+
+.footer_2 .l_d {
+    float: right;
+}
+
+.footer_1 .l_g {
+    float: left;
+}
+
+.footer_2 {
+    margin-right: 20px;
+}
+
+.footer_1 {
+    margin-left: 20px;
+}
+
+
 
