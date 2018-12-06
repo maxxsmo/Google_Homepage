@@ -25,11 +25,7 @@ ul {
 
 }
 
-
-.menu_icon {
-    position: relative; top: 4px;
-
-}
+.menu_icon {position: relative; top: 4px;}
 
 .connexion_button {
     background-color: #448AFF;
@@ -43,9 +39,7 @@ ul {
     margin-right: 20px;    
 }
 
-.connexion_button:hover {
-    box-shadow: 1px 2px 3px 1.5px rgba(211, 211, 211, 0.5) ;
-}
+.connexion_button:hover {box-shadow: 1px 2px 3px 1.5px rgba(211, 211, 211, 0.5) ;}
 
 .logo img {
     width: 272px; height: 92px;
@@ -71,15 +65,12 @@ input[type=text] {
 
 .search_buttons_box {
     position: relative;
-    top: 354px; left: 0px; right: 0px;
+    top: 354px; 
     width: 390px; height: 80px;
     /* background: red; */
     margin: auto;
     
 }
-
-.button_1 {left: 7%;}
-.button_2 {right: 7%;}
 
 .button_1, .button_2 {
     position: absolute; top: 30%;
@@ -92,6 +83,9 @@ input[type=text] {
     outline: none;
     padding: 10px 15px;
 }
+
+.button_1 {left: 7%;}
+.button_2 {right: 7%;}
 
 .button_1:hover, .button_2:hover {
     border: 1px solid rgb(209, 209, 209);
